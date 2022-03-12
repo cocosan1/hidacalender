@@ -256,7 +256,7 @@ def generate_pdf():
     st.download_button(label='Download Excel file', data=df_xlsx, file_name= 'calender.xlsx')
 
 
-    st.markdown('###### GW、お盆、年末年始等が絡む期間は使用を避けてください。')
+    st.markdown('###### 注意！！　GW、お盆、年末年始等が絡む期間 要検証。')
     # st.markdown(get_table_download_link(df_output), unsafe_allow_html=True)
     st.caption('selected {}'.format(option_day))
     st.caption('5日まで検証済')
